@@ -1,0 +1,117 @@
+{
+  "repoUrl": "https://github.com/suryanshsk/broken-python-repo",
+  "teamName": "DEMO",
+  "leaderName": "DEMO1",
+  "branchName": "DEMO_DEMO1_AI_Fix",
+  "pullRequestUrl": "https://github.com/suryanshsk/broken-python-repo/pull/1",
+  "totalFailures": 10,
+  "totalFixes": 10,
+  "finalCIStatus": "FAILED",
+  "totalTimeTaken": "0m 15s",
+  "totalCommits": 10,
+  "fixes": [
+    {
+      "file": "src/importer.py",
+      "bugType": "IMPORT",
+      "line": 1,
+      "commitMessage": "[AI-AGENT] Fix IMPORT in src/importer.py line 1",
+      "status": "FIXED"
+    },
+    {
+      "file": "src/validator.py",
+      "bugType": "SYNTAX",
+      "line": 1,
+      "commitMessage": "[AI-AGENT] Fix SYNTAX in src/validator.py line 1",
+      "status": "FIXED"
+    },
+    {
+      "file": "tests/test_importer.py",
+      "bugType": "SYNTAX",
+      "line": 1,
+      "commitMessage": "[AI-AGENT] Fix SYNTAX in tests/test_importer.py line 1",
+      "status": "FIXED"
+    },
+    {
+      "file": "tests/test_validator.py",
+      "bugType": "SYNTAX",
+      "line": 1,
+      "commitMessage": "[AI-AGENT] Fix SYNTAX in tests/test_validator.py line 1",
+      "status": "FIXED"
+    },
+    {
+      "file": "tests/test_importer.py",
+      "bugType": "SYNTAX",
+      "line": 1,
+      "commitMessage": "[AI-AGENT] Fix SYNTAX in tests/test_importer.py line 1",
+      "status": "FIXED"
+    },
+    {
+      "file": "tests/test_validator.py",
+      "bugType": "SYNTAX",
+      "line": 1,
+      "commitMessage": "[AI-AGENT] Fix SYNTAX in tests/test_validator.py line 1",
+      "status": "FIXED"
+    },
+    {
+      "file": "tests/test_importer.py",
+      "bugType": "SYNTAX",
+      "line": 1,
+      "commitMessage": "[AI-AGENT] Fix SYNTAX in tests/test_importer.py line 1",
+      "status": "FIXED"
+    },
+    {
+      "file": "tests/test_validator.py",
+      "bugType": "SYNTAX",
+      "line": 1,
+      "commitMessage": "[AI-AGENT] Fix SYNTAX in tests/test_validator.py line 1",
+      "status": "FIXED"
+    },
+    {
+      "file": "tests/test_importer.py",
+      "bugType": "SYNTAX",
+      "line": 1,
+      "commitMessage": "[AI-AGENT] Fix SYNTAX in tests/test_importer.py line 1",
+      "status": "FIXED"
+    },
+    {
+      "file": "tests/test_validator.py",
+      "bugType": "SYNTAX",
+      "line": 1,
+      "commitMessage": "[AI-AGENT] Fix SYNTAX in tests/test_validator.py line 1",
+      "status": "FIXED"
+    }
+  ],
+  "ciTimeline": [
+    {
+      "iteration": 1,
+      "passed": false,
+      "timestamp": "2026-02-19T17:56:04.726Z"
+    },
+    {
+      "iteration": 2,
+      "passed": false,
+      "timestamp": "2026-02-19T17:56:08.072Z"
+    },
+    {
+      "iteration": 3,
+      "passed": false,
+      "timestamp": "2026-02-19T17:56:11.137Z"
+    },
+    {
+      "iteration": 4,
+      "passed": false,
+      "timestamp": "2026-02-19T17:56:13.921Z"
+    },
+    {
+      "iteration": 5,
+      "passed": false,
+      "timestamp": "2026-02-19T17:56:16.806Z"
+    }
+  ],
+  "score": {
+    "base": 100,
+    "timeBonus": 10,
+    "commitPenalty": 0,
+    "final": 110
+  }
+}
